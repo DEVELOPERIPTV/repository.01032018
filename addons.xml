@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.stream.vaughnlive.tv"
+       name="Vaughn Live"
+       version="0.1.8"
+       provider-name="The[COLOR tan]Highway[/COLOR], Shani, konbon">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" />
+  	<import addon="script.common.plugin.cache" />
+  	<import addon="script.module.t0mm0.common" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+  	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>For PC with a Default Browser.  Streams are now playable in KODI (XBMC). Thanks to konbon for the new artwork.</summary>
+  	<description>Used to browse the site of Live Streams and allow you to launch your OS's default browser via XBMC's context menu(s) so to visit the channel's page, embed video, or embed chat.  Streams are now playable in KODI (XBMC).</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    <forum></forum>
+    <website></website>
+    <source></source>
+    <email></email>
+  </extension>
+</addon>
+
 <addon id="plugin.video.adryanlist"
        name="AdryanList"
        version="2.6.7"
@@ -291,6 +317,46 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     </extension>
 </addon>
 
+<addon id="plugin.video.palcotv" name="PalcoTV" version="0.3.6" provider-name="LReylist">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests"/>
+	<import addon="script.common.plugin.cache"/>
+	<import addon="script.module.dateutil"/>
+	<import addon="script.module.t0mm0.common" optional="true"/>
+	<import addon="script.module.beautifulsoup" optional="true"/>
+	<import addon="script.module.mctools" optional="true"/>
+	<import addon="script.module.youtube.dl" optional="true"/>
+	<import addon="plugin.video.youtube" optional="true"/>
+	<import addon="plugin.video.SportsDevil" optional="true"/>
+	<import addon="plugin.video.p2p-streams" optional="true"/>
+	<import addon="program.plexus" optional="true"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+	<import addon="script.module.pyamf" optional="true"/>
+	<import addon="script.module.livesolver" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<provides>video</provides>
+    <summary lang="en">PalcoTV</summary>
+    <description lang="es">Addon Palco TV, por LReylist.</description>
+    <disclaimer lang="es"></disclaimer>
+	<news></news>
+	  <assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		<screenshot>art/shot1.png</screenshot>
+		<screenshot>art/shot2.png</screenshot>
+		<screenshot>art/shot3.png</screenshot>
+		<screenshot>art/shot4.png</screenshot>
+	  </assets>
+	<platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.61~beta2" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -391,17 +457,15 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     </extension>
 </addon>
 
-<addon
-  id="plugin.video.SportsDevil"
-  version="[COLOR blue]2.0.5.7[/COLOR]"
-  name="[COLOR blue]SportsDevil.ByPld[/COLOR]"
-  provider-name="[COLOR lime]MaxMustermann, Al101, Hubbab3, Sattekop,Grupo Pld[/COLOR]">
+<addon id="plugin.video.SportsDevil" version="201701250" name="SportsDevil" provider-name="LRey-Sportdevil">
+
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.simplejson" />
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
+   <import addon="script.module.pydevd" version="4.4.0" optional="true"/>
   </requires>
   <extension
     point="xbmc.python.pluginsource"
@@ -409,9 +473,9 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
    <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-     <summary>[COLOR lime]EL GRUPO Y COLABORADORES DE[/COLOR] [COLOR blue]PLD[/COLOR]</summary>
-    <description>[COLOR lime]ESTE PLUGIN A SIDO ACTUALIZADO POR EL GRUPO Y COLABORADORES DE[/COLOR] [COLOR blue]PLD[/COLOR]</description>
-	<description>[COLOR lime]FECHA ACTUALIZACION 04-01-2017[/COLOR]</description>
+    <summary>LReylist</summary>
+    <description>Version retocada por LRey 28-11-2016</description>
+	<description>No se autoriza su distribucion</description>
     <platform>all</platform>
   </extension>
 </addon>
