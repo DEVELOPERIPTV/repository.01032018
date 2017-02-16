@@ -449,7 +449,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.2.1" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.2.2" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -474,7 +474,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>Updated providers</news>
+		<news>- Tweaks</news>
 	</extension>
 </addon>
 
@@ -524,7 +524,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.tvalacarta" name="tvalacarta" version="4.0.41" provider-name="tvalacarta">
+<addon id="plugin.video.tvalacarta" name="tvalacarta" version="4.0.42" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -564,7 +564,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
     </extension>
 </addon>
 
-<addon id="plugin.video.videoclup" name="[COLOR deepskyblue]Video-Club[/COLOR]" version="1.3" provider-name="[COLOR deepskyblue]Video-Club[/COLOR]">
+<addon id="plugin.video.videoclup" name="[COLOR deepskyblue]Video-Club[/COLOR]" version="2.0" provider-name="[COLOR deepskyblue]Video-Club[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
