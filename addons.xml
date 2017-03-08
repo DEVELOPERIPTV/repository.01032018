@@ -336,6 +336,35 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
+<addon id="plugin.video.LReylistfamiliar"
+       name="[COLOR skyblue]LReylistfamiliar 2.0.1[/COLOR]"
+       version="2.0.1"
+       provider-name="LReylistfamiliar">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Creado por LRey</summary>
+    <description>LReylist 2017, no se autoriza la distribucion de este addon. La version familiar no contiene material para adultos ni la zona de pruebas</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.newpct1" name="[COLOR FFFF0000]NewPCT1[/COLOR] viewer" version="1.2.5"
        provider-name="mancuniancol">
     <requires>
@@ -401,7 +430,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.690~beta2" provider-name="tvalacarta">
+<addon id="plugin.video.pelisalacarta" name="pelisalacarta" version="4.2.691~beta2" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -425,7 +454,7 @@ Teleboy part is fork of Teleboy Live TV addon by Andreas Wetzel
   </extension>
 </addon>
 
-<addon id="plugin.video.pelisalacarta-ui" name="pelisalacarta UI" version="4.2.690~beta2" provider-name="tvalacarta">
+<addon id="plugin.video.pelisalacarta-ui" name="pelisalacarta UI" version="4.2.691~beta2" provider-name="tvalacarta">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
